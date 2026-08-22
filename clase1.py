@@ -1,6 +1,8 @@
 age = int(input("Cuantos años tiene: "))
 
-if age <= 8:
+if age < 0:
+    print("Metalo bien ñero")
+elif age <= 8:
     print("Eres un bebe")
 elif age <= 12:
     print("Eres un niño")
