@@ -1,3 +1,8 @@
+name = "Santy"
+print(f"Hola {name}")
+
+print("Primer ejercicio: Condicionales")
+
 age = int(input("Cuantos años tiene: "))
 
 if age < 0:
@@ -11,6 +16,8 @@ elif age <= 18:
 else:
     print("Eres un viejo")
 
+print("Segundo ejercicio: Match")
+
 num1 = int(input("Ingrese un numero: "))
 num2 = int(input("Ingrese otro numero: "))
 print("1. suma")
@@ -22,16 +29,16 @@ oper = int(input("Ingrese la operacion a realizar: "))
 
 match oper:
     case 1:
-        print(num1 + num2)
+        print(f"La suma da: {num1 + num2}")
 
     case 2:
-        print(num1 - num2)
+        print(f"La resta da: {num1 - num2}")
 
     case 3:
-        print(num1 * num2)
+        print(f"La multiplicacion da: {num1 * num2}")
 
     case 4:
-        print(num1 / num2)
+        print(f"La divicion da: {num1 / num2}")
 
     case _:
         print("Operacion invalido")
