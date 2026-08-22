@@ -38,7 +38,18 @@ match oper:
         print(f"La multiplicacion da: {num1 * num2}")
 
     case 4:
+        if num2 == 0:
+            while(num2 == 0):
+                print("no se puede bobo")
+                num2 = int(input("Ingrese otro numero: "))
+
         print(f"La divicion da: {num1 / num2}")
 
     case _:
         print("Operacion invalido")
+
+print("Tercer ejercicio: For loop")
+
+num3 = int(input("Ingrese un numero: "))
+for i in range(0, 11):
+    print(f"{num3} * {i} = {num3*i}")
